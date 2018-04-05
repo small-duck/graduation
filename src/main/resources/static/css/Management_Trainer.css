@@ -1,0 +1,203 @@
+.content-mt {
+	width: 96%;
+	margin: 0 auto;
+}
+.zhidao{
+	width:100%;
+	max-width: 1400px;
+	height: auto;
+	margin-top: 30px;
+	 /*position: relative;*/
+}
+.bj{
+	width: 70%;
+	height: 20px;
+	background-color:#456a92;
+	display: inline-block;
+    vertical-align: middle;
+}
+.jiangyi h2,.zhidao h2 {
+	font-size: 20px;
+	color: #282828;
+	height: 2.4em;
+	font-weight: 500;
+	line-height:2.4em;
+	border-bottom: 2px solid #0d5994;
+	margin-bottom: 8px;
+}
+.tupians-top {
+	width: 100%;
+}
+.tupian{
+	float: left;
+	height: auto;
+	width: 28%;
+	max-width: 200px;
+	margin: 5px 5px;
+	color: :#333;
+}
+.tupian li{
+	padding: 5px;
+}
+.tupian li a{
+	color: #2D93CA;
+}
+.tupian {
+	color: #2D93CA;
+}
+.tupian dl dt {
+	font-size: 1.2em;
+	margin: 5px auto;
+}
+.tupian dl dd {
+	font-size: 1em;
+	margin: 5px auto;
+}
+.tupian dl.dl-sec {
+	padding-top: 20px;
+}
+.box{
+	float: left;
+	width: 70%;
+	margin:5px 3px ;
+	max-width: 620px;
+	height: auto;
+	border-right: 2px solid #0d5994;
+	border-left: 2px solid #0d5994;
+	padding: 0 10px;
+}
+.box p{
+	line-height: 32px;
+	text-indent: 2em;
+}
+.box img{
+	width: 100%;
+	height: 100%;
+	display: block;
+	clear: both;	
+}
+.box .mt_dl_box1 {
+	display: none;
+}
+/*控制讲义的开馆关*/
+.close {
+	display: none;
+}
+.show {
+    display: block !important;
+}
+.mt-con-r {
+	width: 24%;
+	float: right;
+	margin: 0 auto;
+	margin-top: -20px;
+	left: 10px;
+}
+#sysBox{
+	right: 0;
+	bottom: 0;
+	margin-top: 40px;
+	width: 80%;
+	height: auto;
+	overflow: hidden;
+}
+.tou{
+	width: 100%;
+	height: 40px;
+	line-height: 40px;
+	background-color:  #456a92;
+	color: #FFFFFF;
+	border-radius: 3px 3px 0 0;
+}
+.tou {
+	text-align: center;
+	font-size: 1.2em;
+}
+#con1{
+	margin-left: 5px;
+	line-height: 30px;
+}
+.jiangyi{
+	width: 100%;
+	margin: 0 auto;
+	max-width: 1400px;
+	height: auto;
+	position: relative;
+}
+.tupians {
+	padding-bottom: 20px;
+}
+.tupian-2{
+	width: 20%;
+	max-width: 300px;
+	height: auto;
+	border-radius: 5px;
+	margin-left: 4%;
+	margin-top: 20px;
+	display: inline-block;
+	border: 2px solid gray;
+}
+.qianduan_2 {
+	margin-left: 20px;
+	margin-top: 10px;
+}
+.tu_1 {
+	margin: 30px auto;
+}
+.tu_1 img {
+	width: 100%;
+	height: 100%;
+}
+.houduan{
+	width: 100px;
+	height: 30px;
+	background-color: #456a92;
+	color: white;
+	border: 1px solid #456a92;
+	border-radius: 0 25px 25px 0;
+	text-align: center;
+	line-height: 30px;
+	margin: 20px 0 0 27px;
+}
+.houduan_2{
+	margin-left: 20px;
+	margin-top: 10px;
+}
+.tu_2{
+	margin: 30px auto;
+}
+.tupian_4{
+	width: 20%;
+	max-width: 300px;
+	height: auto;
+	border-radius: 5px;
+	margin-left: 4%;
+	margin-top: 20px;
+	display: inline-block;
+	border: 2px solid gray;
+}
+.ui_2{
+	margin-left: 20px;
+	margin-top: 10px;
+}
+.tu_3{
+	margin: 30px auto;
+}
+.tupian_5{
+	width: 20%;
+	max-width: 300px;
+	height: auto;
+	border-radius: 5px;
+	margin-left: 4%;
+	margin-top: 20px;
+	display: inline-block;
+	border: 2px solid gray;
+	
+}
+.ios_2{
+	margin-left: 20px;
+	margin-top: 10px;
+}
+.tu_4{
+	margin: 30px auto;
+}

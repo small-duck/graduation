@@ -1,0 +1,45 @@
+.content .cx-inner .content-top{
+	margin-top:30px;
+	border-bottom:2px solid #0d5994;
+}
+
+.content-top p{
+	font-size: 20px;
+	color: #282828;
+	height: 42px;
+	line-height: 42px;
+	margin-bottom: 8px;
+}
+.content-middle {	
+	margin:20px 10px;	
+}
+.content-middle ul{
+	margin-top: 30px;
+}
+.content-middle ul li{
+	float: left;
+	 width:360px;
+	 padding: 10px 12px;
+}
+.content-middle ul li:first-child{
+	margin-left:0px;
+}
+.content-middle ul li a img{
+	width:360px;
+	height:200px;
+}
+.content-middle ul li h2{
+	display: inline-block;
+	font-size: 16px;
+	padding: 20px 0px 0px 35px;
+}
+.content-middle ul li h3{
+	font-size: 14px;
+	padding: 15px 0px 0px 34px;	
+}
+.content-middle ul li p{
+	line-height: 28px;
+	color:gray;
+	padding: 10px 0px 0px 34px;	
+}
+

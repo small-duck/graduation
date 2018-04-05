@@ -1,0 +1,231 @@
+/*主体设置*/
+.content_sz{
+	margin: 30px 0 0 0;
+	position: relative;
+}
+.content_sz .szde {
+	margin-bottom: 10px;
+	width: 80%;
+	float: left;
+}
+.szt {
+	/*border-bottom: 2px solid #0D5994;*/
+	width: 100%;
+}
+
+.title {
+	text-align: center;
+    line-height: 40px;
+    margin-left: 10px;
+    font-size: 20px;
+    
+}
+.szc {
+	width: 96%;
+	margin: 0 auto;
+}
+.introduce{
+	margin: 10px 10px;
+	width: 100%;
+	margin: 0 auto;
+}
+.wz{
+	width: 100%;
+	margin: 0 auto;
+	/*max-width: 700px;*/
+	overflow: hidden;
+	text-indent: 2.5em;
+}
+.box {
+	margin: 0 auto;
+}
+.mb li {
+	display: none;
+}
+.mb li.show {
+    	display: block;
+}
+#div{
+	background-color: #f8f8f8;
+	height: auto;
+	width: 750px;
+	margin: 0 auto;
+	padding: 5px;
+}
+.artTitle{
+    font-weight: bold;
+    color: black;
+    font-size: 18px;
+    line-height: 35px;
+}
+#art0{
+	margin-top: 10px;
+}
+#art0 p{
+	font-size: 96%;
+	line-height: 2em;
+}
+.art {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+#art1 p{
+	font-size: 96%;
+	line-height: 2em;
+}
+#art2 p{
+	font-size: 96%;
+	line-height: 2em;
+}
+.mb p {
+	/*display: none;*/
+	padding: 5px;
+	font-size: 96%;
+	line-height: 2em;
+}
+a{
+	color:#434343;
+}
+.btm{
+	text-align: right;
+	height: 30px;
+}
+.btn{
+	width: 80px;
+	height: 20px;
+	padding: 5px 3px;
+	text-align: center;
+	text-decoration: none;
+	background-color: #f0f0f0;
+	border:1px solid #ccc;
+}
+.room{
+	float: right;
+	width: 36%;
+	overflow: hidden;
+}
+.room img{
+	width: 100%;
+	height: 100%;
+}
+.szfg {
+	position: relative;
+	overflow: auto;
+	margin-top: 20px;
+}
+/*.szfg .szl {
+	border-bottom: 2px solid #0D5994;
+	width: 100%;
+}*/
+.szfg .title span{
+    line-height: 40px;
+    margin-left: 10px;
+    font-size: 20px;
+}
+.picint {
+	width:100% ;
+	padding-top: 20px;
+	text-align: center;
+	overflow: hidden;
+	margin: 0 auto;
+}
+.picint img {
+	width: 100%;
+	height: 100%;
+	max-width: 284px;
+	margin:20px 10px;
+}
+/*项目交流*/
+.szfg .projects {
+	margin-left: 20px;
+}
+.pro .pro_left {
+	float: left;
+}
+.pro .pro_right{
+	float: right;
+}
+.pro .pro_left .pro_inform h4 {
+	font-size: 16px;
+	padding: 20px 10px;
+}
+form {
+	margin:20px auto;
+}
+form ul li {
+	padding: 10px 0;
+}
+form ul li .pro_text {
+	width: 600px;
+	height:80px;
+	vertical-align: top;
+}
+.pro_left ul li label {
+	background-color: #6495ED;
+	height: 25px;
+	line-height:25px;
+	width: 180px;
+	border-radius: 5%;
+	display: inline-block;
+	padding-left:10px;
+	text-align: center;
+}
+.pro_left ul li input {
+	height: 20px;
+	line-height: 20px;
+	vertical-align: bottom;
+}
+.peo_sel {
+	height:20px;
+}
+.la_first {
+	height: 20px;
+	width:250px;
+	display: inline-block;
+}
+.pro_left  label .la_second {
+	padding-top:-60px;
+}
+.pro_btn {
+	text-align: center;
+	display: inline-block;
+	color: #fff !important;
+	background: #6495ED;
+	border-radius: 5px;
+	height: 38px;
+	width: 185px;
+	line-height: 38px;
+	border: 0;
+	}
+.pro_btn:hover {
+	background: #0D5994;
+	text-decoration: none;
+	}
+.pro .pro_right ul li {
+	margin: 10px 0 10px 0;
+
+}
+.pro .pro_right ul li img {
+	width: 250px;
+	height: 310px;
+}
+
+
+
+
+
+/*中心概述的css*/
+
+
+.column2-content1 span{
+	font-size: 14px;
+	height: 28px;
+	line-height: 28px;
+	text-indent: 2em;
+	padding-top: 20px;
+	display: inline-block;
+}
+
+
+
+

@@ -1,0 +1,82 @@
+
+.content-zc{/*页面内容最外面的大盒子*/
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 10px;
+
+}
+
+.zc-bt{/*-------下划线*/
+    padding-bottom: 20px;
+    padding-top: 30px;
+    padding-left: 1em;
+    border-bottom: 2px solid #0D5994;
+    font: 19px black;
+}
+
+#zuix-box-l{/*页面左侧内容---开始*/
+    width: 60%;
+    margin-right: 2%;
+    float: left;
+    display: inline-block;
+}
+.zuix li{
+    width: 100%;
+    font-size: 1em;
+    line-height: 40px;
+    margin-left: 4%;
+    min-width: 200px;
+}
+.zuix  li span{
+    display: inline-block;
+    font-size: 13px;
+    color: #7e7a7a;
+}
+
+
+/*页面内容右侧---开始*/
+.zc-box-right{
+	width: 30%;
+    display: inline-block;
+    border-left: 2px solid #0D5994;
+    height: 649px;
+    min-width: 146px;
+    padding-left: 1%;
+    margin-top: 56px;
+
+}
+.zc-box-right div{
+    height: 320px;
+}
+.zc-l-top a{
+    display: block;
+    width: 186px;
+    height: 40px;
+    font-size: 18px;
+    padding-top: 14px;
+    text-align: center;
+    background: #c1d1d0;
+    color: white;
+    margin: 30px 10px;
+    min-width: 146px;
+    padding:auto ;
+}
+.zc-l-bottom a{
+    display: block;
+    width: 194px;
+    height: 40px;
+    font-size: 18px;
+    line-height: 2em;
+    padding: 5% 1.5%;
+    text-align: center;
+    background: #edf7ff;
+    color: #565555;
+    margin: 30px 10px;
+    min-width: 146px;
+}
+
+.zc-l-bottom a img{
+    width: 32px;
+    height: auto;
+    padding-right:2px;
+}

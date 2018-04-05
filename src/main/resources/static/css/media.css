@@ -1,0 +1,978 @@
+@charset "UTF-8";
+/**
+ * [xLarge Screen for PC]
+ * >=1200
+ */
+@media screen and (min-width: 1200px) {
+
+}
+
+/**
+ * [Large Screen for PC & Pad]
+ * 960~1199
+ */
+@media screen and (max-width: 1199px) {
+	
+}
+
+
+@media screen and (max-width: 1199px) and (min-width: 960px) {
+	.new .newl {
+		position: relative;
+		float: left;
+		width: 80%;
+		min-width: 770px;
+		margin: 5px 20px 0 0;
+		overflow: hidden;
+	}
+	/*newld的右侧*/
+	.new .newb_l {
+		float: left;
+		width: 40%;
+		margin-top:5px;
+	}
+	.new .newl {
+		position: relative;
+	    float: left;
+		width:64%;
+		min-width: 720px;
+	    margin: 5px 20px 0 0;
+	    overflow: hidden;
+		background:url("../img/cont_left_img/pic_bg.png")  no-repeat right bottom;
+	}
+	.slider-ctrl-bg {
+		position: relative;
+		background-color: #000;
+		margin-top: 50%;
+		z-index: 101;
+		width: 100%;
+		opacity:0.5;
+		-moz-opacity:0.5;
+		-webkit-opacity:0.5;
+		filter:alpha(opacity=50);
+	}
+	.daoss-panel {
+		position: absolute;
+		top: 287px;
+		left: 314px;
+		width: 56px;
+		height: 41px;
+		background: url(../img/cont_left_img/daos3.png) no-repeat;
+	}
+	
+	/*new下面左侧*/
+	.newb_r {
+		float: right;
+		width: 50%;
+		margin:5px auto;
+		margin-left: 10px;
+	}
+	.newb_r dl{
+		height: 40%;
+		overflow: hidden;
+		margin-top: 5px;
+	}
+	.newb_r dl.last,
+	.newb_r dl.second{
+		padding-left:0 ;
+	}
+	.newb_r dl.last{
+	 	display: none;
+	}
+	/*教学资源css*/
+	.tupian{
+		width: 18%;
+	}
+	.box{
+		float: left;
+		width: 50%;
+		margin:5px 3px ;
+		max-width: 620px;
+		height: auto;
+		border-right: 2px solid #0d5994;
+		border-left: 2px solid #0d5994;
+		padding: 0 10px;
+	}
+	.mt-con-r {
+		width: 25%;
+		float: right;
+		margin: 0 auto;
+		margin-top: -20px;
+	}
+}
+
+@media screen and (max-width: 959px){
+	body,p { font-size: 15px;}
+	/*头部*/
+	.topwrapbg {
+		background-image:none !important;
+	}
+	.header .logo  {
+		float: left;
+		width: 30%;
+		height: 45%;
+		text-align: center;
+		_display:inline;
+		margin-top:1em;
+	}
+	.header .topwrap {
+		height: 7em ;
+	}
+    #logo_r{
+    	float: left;
+		width:100%;
+	}
+	.guanliyuan {
+		color: #FFFFFF;
+		margin-left: 10px;
+		font-size:0.8em;
+		font-size:0.8rem;
+	}
+	/*nav切换按钮*/
+	.nav-tab {
+		display: block;
+		overflow: hidden;
+		width: 15px;
+		height: 15px;
+		float: right;
+		background: url(../img/ban_img/icon.png) no-repeat 0 -370px;
+		margin: 20px 10px 0 0;
+		overflow: hidden;
+	}
+	#nav {
+		display: none;
+		width: 100% !important;
+		margin: 0 auto;
+		background-color:#252525;
+	}
+	.navs ul li {
+		z-index: 999;
+		width: 100%;
+		zoom: 1;
+	}
+	.navs ul li:hover {
+		background-color: #404040; color: #fff; outline: 0;
+	}
+	.navs ul li a {
+		display: block;
+	    text-decoration: none;
+	    color: #c7c7c7;
+	    font-size: 14px;
+	    line-height: 20px;
+	    padding: 8px 30px 8px 15px;
+	    border-top: 1px solid rgba(0,0,0,.3);
+	    box-shadow: inset 0 1px 0 rgba(255,255,255,.05);
+	    text-shadow: 0 1px 0 rgba(0,0,0,.5);
+	}
+	.slider-ctrl-bg {
+		position: relative;
+		background-color: #000;
+		margin-top: 50%;
+		z-index: 101;
+		width: 100%;
+		opacity:0.5;
+		-moz-opacity:0.5;
+		-webkit-opacity:0.5;
+		filter:alpha(opacity=50);
+	}
+	.slider-ctrl-prev,
+	.slider-ctrl-next {
+		display: none !important;
+	}
+	/*introduce的css*/
+	/*风光板块*/
+	.picint img {
+		width: 100%;
+		height: 100%;
+		max-width: 200px;
+		margin:20px 10px;
+		/*vertical-align:middle;*/
+	}
+	/*政策管理的响应式布局*/
+	.content-zc{/*页面内容最外面的大盒子*/
+	    width: 80%;
+	    margin: 0 auto;
+	    margin-top: 10px;
+	}
+	/*页面内容右侧---开始*/
+	/*页面内容右侧---开始*/
+	.zc-box-right{
+		width: 30%;
+	}
+	.zc-box-right div{
+	    height: auto;
+	    width: 100%;
+	}
+	.zc-box-right div{
+     	height: auto !important; 
+	}
+	/*教学资源*/
+	.tupian{
+		width: 20%;
+	}
+	.mt-con-r {
+		width: 100%;
+		float: none;
+	}
+	/*教学资源的css*/
+	#con1{
+		line-height: 30px;
+		margin: 0 auto;
+		width: 100%;
+		max-width: 250px;
+	}
+	#sysBox{
+		width: 100%;
+	}
+	/*队伍建设的css*/
+}
+/**
+ * [Small Screen for Smart Phone and Mini Pad]
+ * 480~700~767
+ */
+@media screen and (max-width: 767px) and (min-width:700px){
+	body,p { font-size: 15px;}
+	/*头部*/
+	.topwrapbg {
+		background-image:none !important;
+	}
+	.header .logo  {
+		float: left;
+		width: 30%;
+		height: 45%;
+		text-align: center;
+		_display:inline;
+		margin-top:1em;
+	}
+	.header .topwrap {
+		height: 7em ;
+	}
+    #logo_r{
+    	float: left;
+		width:100%;
+	}
+	.guanliyuan {
+		color: #FFFFFF;
+		margin-left: 10px;
+		font-size:0.8em;
+		font-size:0.8rem;
+	}
+	/*nav切换按钮*/
+	.nav-tab {
+		display: block;
+		overflow: hidden;
+		width: 15px;
+		height: 15px;
+		float: right;
+		background: url(../img/ban_img/icon.png) no-repeat 0 -370px;
+		margin: 20px 10px 0 0;
+		overflow: hidden;
+	}
+	#nav {
+		display: none;
+		width: 100% !important;
+		margin: 0 auto;
+		background-color:#252525;
+	}
+	.navs ul li {
+		z-index: 999;
+		width: 100%;
+		zoom: 1;
+	}
+	.navs ul li:hover {
+		background-color: #404040; color: #fff; outline: 0;
+	}
+	.navs ul li a {
+		display: block;
+	    text-decoration: none;
+	    color: #c7c7c7;
+	    font-size: 14px;
+	    line-height: 20px;
+	    padding: 8px 30px 8px 15px;
+	    border-top: 1px solid rgba(0,0,0,.3);
+	    box-shadow: inset 0 1px 0 rgba(255,255,255,.05);
+	    text-shadow: 0 1px 0 rgba(0,0,0,.5);
+	}
+	.slider-ctrl-bg {
+		position: relative;
+		background-color: #000;
+		margin-top: 50%;
+		z-index: 101;
+		width: 100%;
+		opacity:0.5;
+		-moz-opacity:0.5;
+		-webkit-opacity:0.5;
+		filter:alpha(opacity=50);
+	}
+	.slider-ctrl-prev,
+	.slider-ctrl-next {
+		display: none !important;
+	}	
+	/*政策管理的响应式布局*/
+	.content-zc{/*页面内容最外面的大盒子*/
+	    width: 80%;
+	    margin: 0 auto;
+	    margin-top: 10px;
+	}
+	/*页面内容右侧---开始*/
+	.zc-box-right{
+		width: 100%;
+		display: inline-block;
+		border-left: 2px solid #0D5994;
+		height: 649px;
+		min-width: 146px;
+		padding-left: 1%;
+		margin-top: 56px;
+	}
+	.zc-box-right div{
+	    height: auto;
+	    width: 100%;
+	}
+	.zc-l-top a{
+	    display: block;
+	    /* width: 186px; */
+	    height: 40px;
+	    font-size: 18px;
+	    padding-top: 14px;
+	    text-align: center;
+	    background: #c1d1d0;
+	    color: white;
+	    margin: 30px 10px;
+	    min-width: 146px;
+	    padding:auto;
+	}
+	.zc-box-right div{
+     	height: auto !important; 
+	}
+}
+ 
+@media screen and (max-width: 767px)  {
+	body,p { font-size: 15px;}
+	/*头部*/
+	.topwrapbg {
+		background-image:none !important;
+	}
+	.header .logo  {
+		float: left;
+		width: 30%;
+		height: 45%;
+		text-align: center;
+		_display:inline;
+		margin-top:1em;
+	}
+	.header .topwrap {
+		height: 7em ;
+	}
+    #logo_r{
+    	float: left;
+		width:100%;
+	}
+	.guanliyuan {
+		color: #FFFFFF;
+		margin-left: 10px;
+		font-size:0.8em;
+		font-size:0.8rem;
+	}
+	/*nav切换按钮*/
+	.nav-tab {
+		display: block;
+		overflow: hidden;
+		width: 15px;
+		height: 15px;
+		float: right;
+		background: url(../img/ban_img/icon.png) no-repeat 0 -370px;
+		 margin: 20px 10px 0 0;
+		 overflow: hidden;
+	}
+	#nav {
+		display: none;
+		width: 100% !important;
+		margin: 0 auto;
+		background-color:#252525;
+	}
+	.navs ul li {
+		z-index: 999;
+		width: 100%;
+		zoom: 1;
+	}
+	.navs ul li:hover {
+		background-color: #404040; color: #fff; outline: 0;
+	}
+	.navs ul li a {
+		display: block;
+	    text-decoration: none;
+	    color: #c7c7c7;
+	    font-size: 14px;
+	    line-height: 20px;
+	    padding: 8px 30px 8px 15px;
+	    border-top: 1px solid rgba(0,0,0,.3);
+	    box-shadow: inset 0 1px 0 rgba(255,255,255,.05);
+	    text-shadow: 0 1px 0 rgba(0,0,0,.5);
+	}
+	.slider-ctrl-bg {
+		position: relative;
+		background-color: #000;
+		margin-top: 50%;
+		z-index: 101;
+		width: 100%;
+		opacity:0.5;
+		-moz-opacity:0.5;
+		-webkit-opacity:0.5;
+		filter:alpha(opacity=50);
+	}
+	.slider-ctrl-prev,
+	.slider-ctrl-next {
+		display: none !important;
+	}
+	/*其他子页面的banner部分*/
+	.headline {
+		display: none;
+	}
+	.media-p {
+		display: block;
+	}
+	/*新闻版块*/
+	.new-l-wrap {
+		width: 96%;
+	}
+	.content-zc{/*页面内容最外面的大盒子*/
+	    width: 90%;
+	    margin: 0 auto;
+	    margin-top: 10px;
+	}
+	#zuix-box-l{/*页面左侧内容---开始*/
+	    width: 100% !important;
+	    margin-right: 2%;
+	    float: left;
+	    display: inline-block;
+	}
+	/*页面内容右侧---开始*/
+	.zc-box-right{
+		float: left;
+		width: 100%;
+	    display: inline-block;
+	    border-left: 2px solid #0D5994;
+	    height: auto;
+	    min-width: 146px;
+	    padding-left: 1%;
+	    margin-top: 56px;
+	}
+	/*introduce的响应式css*/	
+	.szc {
+		width: 96%;
+		margin: 0 auto;
+	}
+	.wz{
+		float: left;
+		margin: 10px 10px 0px 10px ;
+		width: 96% !important;
+		max-width: 700px;
+		overflow: hidden;
+		text-indent: 2.5em;
+		margin: 0 auto;
+	}
+	.room{
+		float: none;
+		width: 100% ;
+		max-width: 400px;
+		overflow: hidden;
+		margin: 10px auto;
+	    padding-top: 20px
+	}
+	/*introduce的风光板块，最后一张图片*/
+	#in_img_last{
+		display: none !important;	
+	}
+	.picint img {
+		width: 100%;
+		height: 100%;
+		max-width:284px;
+		margin:20px 10px ;
+	}
+	/*政策的响应式css*/
+	.content-zc{/*页面内容最外面的大盒子*/
+	    width: 96%;
+	    margin: 0 auto;
+	    margin-top: 10px;
+	}
+	#zuix-box-l{/*页面左侧内容---开始*/
+	    width: 100%;
+	    margin-right: 2%;
+	    float: none;
+	    display: inline-block;
+	}
+	.zc-box-right div{
+    	height: auto;
+    	margin-left: 5%;
+	}
+	/*页面内容右侧---开始*/
+	.zc-box-right{
+		width: 100%;
+		display: inline-block;
+		border-left: 2px solid #0D5994;
+		height: auto;
+		min-width: 146px;
+		padding-left: 1%;
+		margin-top: 56px;
+	}
+	/*教学资源html*/
+	.zhidao{
+		width:100%;
+		margin-top: 0;
+	}
+	.tupian{
+		float: left;
+		height: auto;
+		width: 20%;
+	}
+	.mt-con-r {
+		width: 100%;
+		float: none;
+		margin: 0 auto;
+		margin-top: -20px;
+		left: 10px;
+	}
+	#sysBox{
+		width: 100%;
+		height: auto;
+		overflow: hidden;
+		margin: 0 auto;
+	}
+	#con1{
+		line-height: 30px;
+		margin: 0 auto;
+		width: 100%;
+		max-width: 250px;
+	}
+	.tupians {
+		margin: 0 auto;
+		overflow: hidden;
+	}
+	.tupians>div{
+		width: 90%;
+		max-width: 300px;
+		height: auto;
+		border-radius: 5px;
+		margin-left: 4%;
+		margin-top: 20px;
+		display: inline-block;
+		border: 2px solid gray;
+	}
+	/*队伍建设的css*/
+.content_team {
+    margin-top:0 !important;
+}
+.jsdw {
+    width:96%!important;
+}
+/*这是规章制度的css*/
+.content_sz .szde {
+	width: 96%;
+}
+/*教学资源css*/
+	.downcolumn1ul-li-ul {
+	margin-left: 0;
+}
+	
+
+
+	
+}
+
+/**
+ * [xSmall Screen for Smart Phone]
+ * 479~767
+ */
+@media screen and /*(min-width:320px) and */(max-width:479px){
+	/*头部*/
+	.topwrapbg {
+		background-image:none !important;
+	}
+	.header .logo  {
+		float: left;
+		width: 30%;
+		height: 45%;
+		text-align: center;
+		_display:inline;
+		margin-top:1em;
+	}
+	.header .topwrap {
+		height: 7em ;
+	}
+    #logo_r{
+    	float: left;
+		width:100%;
+	}
+	.guanliyuan {
+		color: #FFFFFF;
+		margin-left: 10px;
+		font-size:0.8em;
+		font-size:0.8rem;
+	}
+	/*nav切换按钮*/
+	.nav-tab {
+		display: block;
+		overflow: hidden;
+		width: 15px;
+		height: 15px;
+		float: right;
+		background: url(../img/ban_img/icon.png) no-repeat 0 -370px;
+		 margin: 20px 10px 0 0;
+		 overflow: hidden;
+	}
+	#nav {
+		display: none;
+		width: 100% !important;
+		margin: 0 auto;
+		background-color:#252525;
+	}
+	.navs ul li {
+		z-index: 999;
+		width: 100%;
+		zoom: 1;
+	}
+	.navs ul li:hover {
+		background-color: #404040; color: #fff; outline: 0;
+	}
+	.navs ul li a {
+		display: block;
+	    text-decoration: none;
+	    color: #c7c7c7;
+	    font-size: 14px;
+	    line-height: 20px;
+	    padding: 8px 30px 8px 15px;
+	    border-top: 1px solid rgba(0,0,0,.3);
+	    box-shadow: inset 0 1px 0 rgba(255,255,255,.05);
+	    text-shadow: 0 1px 0 rgba(0,0,0,.5);
+	}
+	/*隐藏轮播图*/
+	.banner_index {
+		margin: 5px 0 0 0;
+	}
+	.banner_index {
+		display: none;
+	}
+	/*其他子页面的banner部分*/
+	.headline {
+		display: none;
+	}
+	.media-p {
+		display: block;
+	}
+	
+	
+	
+	
+	
+	/*政策的响应式css*/
+	.content-zc{/*页面内容最外面的大盒子*/
+	    width: 96%;
+	    margin: 0 auto;
+	    margin-top: 10px;
+	}
+	#zuix-box-l{/*页面左侧内容---开始*/
+	    width: 100%;
+	    margin-right: 2%;
+	    float: none;
+	    display: inline-block;
+	}
+	.zc-box-right div{
+    	height: auto;
+	}
+	/*页面内容右侧---开始*/
+	.zc-box-right{
+		width: 100%;
+		display: inline-block;
+		border-left: 2px solid #0D5994;
+		height: auto;
+		min-width: 146px;
+		padding-left: 1%;
+		margin-top: 56px;
+	}
+	/*mt的响应式css*/
+	.tupians-top {
+		width: 100%;
+	}	
+	.tupian{
+		float: none;
+		width: 100%;
+		/*max-width: 100%;*/
+		border-right:none;
+	}
+	.box{
+		border-top: 2px solid #0D5994;
+		float: none;
+		width: 100%;
+	}
+	.mt-con-r {
+		width: 90%;
+		margin: 0 auto: ;;
+		float: none;
+		margin-top: 0;
+	}
+	.qq {
+		display: none;
+	}
+	.jiangyi{
+		width: 90%;
+		margin: 0 auto;
+		max-width: 1400px;
+		height: auto;
+	}
+	.tupian_5 {
+		float: left;
+		width: 100%;	
+	}
+	.tupian_4 {
+		float: left;
+		width: 100%;	
+	}
+	.tupian_3 {
+		float: left;
+		width: 100%;	
+	}
+	.tupian_2 {
+		float: left;
+		width: 100%;	
+	}
+	.qianduan{
+		width: 100%;
+		max-width: 100px;
+		height: 30px;
+		background-color: #456a92;
+		color: white;
+		border: 1px solid #456a92;
+		border-radius: 0 25px 25px 0;
+		/* text-align: center; */
+		line-height: 30px;
+		margin: 20px 0 0 100px;
+	}
+	/*队伍管理的主体设置*//*------队伍管理css*/
+	.content_team{
+	    width:90% !important;
+	}
+	/*教学资源的主体设置*//*------教学资源css*/
+	.zhidao{
+		margin-top:0;
+	}
+	.tupian{
+		float: none;
+		height: auto;
+		width: 100%;
+		margin: 0 auto;
+	}
+	.dl-sec {
+		display: none;
+	}
+	.box{
+		float: none;
+		width: 96%;
+		/*max-width: 300px;*/
+		overflow: hidden;
+		border-right: none;
+		border-left:none;
+		border-top: 2px solid #0d5994;
+	}
+	.mt-con-r {
+		width: 100%;
+		float: none;
+		margin: 0 auto;
+		margin-top: -20px;
+		left: 10px;
+	}
+	#sysBox{
+		right: 0;
+		bottom: 0;
+		margin: 0 auto;
+		margin-top: 40px;
+		width: 80%;
+		height: auto;
+		overflow: hidden;
+	}
+	.tupians {
+		margin: 0 auto;
+		overflow: hidden;
+	}
+	.tupians>div{
+		width: 90%;
+		max-width: 300px;
+		height: auto;
+		border-radius: 5px;
+		margin-left: 4%;
+		margin-top: 20px;
+		display: inline-block;
+		border: 2px solid gray;
+	}
+}
+/**
+ * [Tiny Screen for Older Phone and Smart Phone]
+ * <319
+ */
+@media screen and (max-width: 319px){
+	/*头部*/
+	.topwrapbg {
+		background-image:none !important;
+	}
+	.header .logo  {
+		float: left;
+		width: 40%;
+		height: 30%;
+		text-align: center;
+		_display:inline;
+		margin-top:1em;
+	}
+    #logo_r{
+    	float: left;
+		margin-right:1em;
+		width:100%;
+	}
+	.guanliyuan {
+		color: #FFFFFF;
+		margin-left: 10px;
+		font-size:0.8em;
+		font-size:0.8rem;
+	}
+	/*nav切换按钮*/
+	.nav-tab {
+		display: block;
+		overflow: hidden;
+		width: 15px;
+		height: 15px;
+		float: right;
+		background: url(../img/ban_img/icon.png) no-repeat 0 -370px;
+		 margin: 20px 10px 0 0;
+		 overflow: hidden;
+	}
+	#nav {
+		display: none;
+		width: 100% !important;
+		margin: 0 auto;
+		background-color:#252525;
+	}
+	.navs ul li {
+		z-index: 999;
+		width: 100%;
+		zoom: 1;
+	}
+	.navs ul li:hover {
+		background-color: #404040; color: #fff; outline: 0;
+	}
+	.navs ul li a {
+		display: block;
+	    text-decoration: none;
+	    color: #c7c7c7;
+	    font-size: 14px;
+	    line-height: 20px;
+	    padding: 8px 30px 8px 15px;
+	    border-top: 1px solid rgba(0,0,0,.3);
+	    box-shadow: inset 0 1px 0 rgba(255,255,255,.05);
+	    text-shadow: 0 1px 0 rgba(0,0,0,.5);
+	}
+	/*隐藏轮播图*/
+	.banner_index {
+		margin: 5px 0 0 0;
+	}
+	.banner_index {
+		display: none;
+	}
+	/*其他子页面的banner部分*/
+	.headline {
+		display: none;
+	}
+	.media-p {
+		display: block;
+	}
+	.con-wap {
+		margin: 0 auto;
+		overflow: hidden;
+		min-width: 312px;
+		padding: 0 5px;
+	}
+	.new .newl {
+		position: relative;
+	    float: left;
+		width:96%;
+	    overflow: hidden;
+		background:none;
+	}
+	/*其他子网页的banner.css*/
+	.media-p {
+		display: block;
+	}
+	/*主题部分*/
+	.content {
+		position: relative;
+		margin: 0 auto;
+		background-color: #eef3f7;
+	}
+	.wp-navi-aside .navi-aside-wrap li a { display: block; text-decoration: none; color: #c7c7c7; font-size: 14px; line-height: 20px; padding: 8px 30px 8px 15px;border-top: 1px solid rgba(0,0,0,.3);box-shadow: inset 0 1px 0 rgba(255,255,255,.05);text-shadow: 0 1px 0 rgba(0,0,0,.5);}
+	.wp-navi-aside .navi-aside-wrap li a:hover,.wp-navi-aside .navi-aside-wrap li a:focus { background-color: #404040; color: #fff; outline: 0;}
+	.wp-footer .wp-inner .footer .address,.wp-footer .wp-inner .footer .zipcode { display: inline;}
+	/*introduce的响应式css*/	
+	.wz{
+		float: left;
+		margin: 10px 10px 0px 10px ;
+		width: 96% !important;
+		max-width: 700px;
+		overflow: hidden;
+		text-indent: 2.5em;
+		margin: 0 auto;
+	}
+	.room{
+		float: none;
+		width: 100% !important;
+		overflow: hidden;
+		margin: 10px auto;
+	}
+	.szfg {
+		overflow: auto;
+		width: 96%;
+		margin: 0 auto;
+	}
+	.picint img {
+		width: 100%;
+		height: 100%;
+		max-width: 320px;
+		margin:20px 20px;
+	}
+	
+	/*政策的响应式css*/
+	.content-zc{/*页面内容最外面的大盒子*/
+	    width: 96%;
+	    margin: 0 auto;
+	    margin-top: 10px;
+	}
+	#zuix-box-l{/*页面左侧内容---开始*/
+	    width: 100%;
+	    margin-right: 2%;
+	    float: none;
+	    display: inline-block;
+	}
+	.zc-box-right div{
+    	height: auto;
+	}
+	/*页面内容右侧---开始*/
+	.zc-box-right{
+		width: 100%;
+		display: inline-block;
+		border-left: 2px solid #0D5994;
+		height: auto;
+		min-width: 146px;
+		padding-left: 1%;
+		margin-top: 56px;
+	}
+	/*mt页面的响应式css*/
+	.tupians-top {
+		width: 96%;
+	}
+	.tupian{
+		float: none;
+		height: auto;
+		width: 100%;
+	}
+	/*队伍管理的主体设置*//*------队伍管理css*/
+	.content_team{
+	    width:90% !important;
+	}
+	
+}

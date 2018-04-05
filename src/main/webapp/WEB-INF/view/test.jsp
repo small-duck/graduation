@@ -14,7 +14,7 @@
     <% String path = request.getContextPath();%>
 </script>
 <body>
-<h1>this istest</h1>
+<h1></h1>
 <img src="<%=path%>/a.jpg">
 </body>
 </html>

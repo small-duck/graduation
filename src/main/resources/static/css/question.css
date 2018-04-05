@@ -1,0 +1,374 @@
+.main-sec {
+    margin-bottom: 10px;
+    padding: 0 20px;
+    overflow: hidden;
+    background: white;
+}
+.faq-sec .sbj {
+    margin: 0 -20px;
+    border-bottom: 2px solid #f5f5f5;
+}
+.main-sec .sbj {
+    height: 50px;
+    line-height: 50px;
+    font-weight: normal;
+}
+.faq-sec .sbj b {
+    padding: 0 20px;
+}
+.main-sec .sbj b {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+}
+.main-sec .cont {
+    padding: 10px 0;
+}
+.faq-list {
+    overflow: hidden;
+}
+.faq-list dl {
+    line-height: 25px;
+    padding: 15px 0;
+    overflow: hidden;
+    border-bottom: 1px solid #ddd;
+    font-size: 14px;
+}
+.faq-list dl {
+    line-height: 25px;
+    }
+    .faq-list p {
+    overflow: hidden;
+}
+
+p {
+    word-wrap: break-word;
+}
+.faq-list dd {
+    min-height: 50px;
+    padding-top: 8px;
+    color: #888;
+}
+.faq-list dd b {
+    color: #ff8629;
+}
+.faq-list b {
+    display: block;
+    width: 30px;
+    float: left;
+    font-size: 20px;
+    font-weight: normal;
+}
+.faq-list dd p a {
+    color: #00b355;
+}
+.fad-search{
+	float:right;
+	border: 1px solid #ccc;
+}
+.clearfix{
+	clear:both;
+}
+ .fad-search .keyword {
+    width: 260px;
+    height: 38px;
+    line-height:38px;
+    padding: 2px 5px;
+    float: left;
+    border:0;
+   color:#CCCCCC;
+}
+ .fad-search .btn {
+    width: 30px;
+    height: 38px;
+    border: 0;
+    cursor: pointer;
+    background: url(../img/icon_zoom.png) center no-repeat;
+}
+.btn-ask {
+    display: block;
+    width: 70px;
+    height: 38px;
+    line-height: 38px;
+    margin-right: 8px;
+    padding-left: 40px;
+    float: left;
+    border: 1px solid #c8e6a1;
+    font-size: 14px;
+    color: #6bbd00;
+    font-weight: bold;
+    background: #f8fff0 url(../img/icon_edit.png) 12px center no-repeat;
+}
+.seek{
+	margin-top:55px;
+}
+.quest-title {
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: normal;
+    line-height: 1.8;
+}
+.patient-info {
+    margin-bottom: 10px;
+    font-size: 12px;
+    line-height: 13px;
+}
+.patient-info span {
+    margin-right: 10px;
+    padding-right: 10px;
+    display: inline-block;
+    color: #999;
+}
+.illness-type label{
+	 margin-right: 10px;
+    padding-right: 10px;
+    display: inline-block;
+    color: #999;
+}
+.illness-type  a{
+	margin-right: 10px;
+    padding-right: 10px;
+    display: inline-block;
+    color: #999;
+}
+.illness-pics{
+	margin-top:10px;
+}
+.illness-pics label{
+	margin-right: 10px;
+    padding-right: 10px;
+    display: inline-block;
+    color: #999;
+}
+.illness-pics p{
+	
+    padding-left: 75px;
+    display: inline-block;
+    color: #999;
+}
+
+.quest-info label {
+    font-size: 14px;
+    color: #666;
+}
+//详细解答css样式
+.main-sec {
+	margin-top:10px;
+    margin-bottom: 10px;
+    padding: 0 20px;
+    overflow: hidden;
+    background: white;
+}
+.main-sec .sbj {
+	float:left;
+	width:100%;
+    height: 50px;
+    line-height: 50px;
+    font-weight: normal;
+}
+.sbj b {
+    float: left;
+}
+.main-sec .sbj b {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+}
+.main-sec .sbj .help-tip {
+    padding-left: 20px;
+    float: right;
+    font-size: 12px;
+    color: #aaaaaa;
+    background-repeat: no-repeat;
+    background-position: 0 center;
+}
+.answer-info-cont {
+    position: relative;
+    padding-bottom: 30px;
+    overflow: hidden;
+    border-bottom: 1px solid #e6e6e6;
+}
+.answer-info-cont dt {
+    width: 20%;
+    float: left;
+    text-align: center;
+}
+.answer-info-cont dd{
+	width:75%;
+	float:right;
+}
+.answer-info-cont dd .answer-words {
+    font-size: 15px;
+    line-height: 2;
+}
+.answer-info-cont dd .answer-words {
+    font-size: 15px;
+    line-height: 2;
+}
+.answer-info-cont dd .ask-answer-doctor{
+	position:absolute;
+	bottom:30px;
+	right: 0px;
+}
+.answer-info-cont dd .icon-time{
+	color:#CCCCCC;
+}
+.answer-judge{
+	margin-top:6px;
+}
+.zan{
+	float:left;
+	width:20%;
+	margin-left: 20%;
+}
+.zan p{
+	color:rgb(255,159,85);
+}
+.notzan p{
+	color:rgb(40,188,148);
+}
+.notzan{
+	float:right;
+	width:20%;
+	margin-right: 20%;
+}
+//提问解答css样式
+.inner {
+    width: 990px;
+    margin: 0 auto;
+}
+.main--sec.orange-sec {
+    padding: 0 40px;
+    border-color: #ff8629;
+}
+.main--sec.orange-sec .sbj {
+    padding: 25px 0 25px 40px;
+    background-repeat: no-repeat;
+    background: url("../img/icon-postion-orange.png" ) no-repeat 0 50% ;
+}
+.main--sec .sbj {
+    height: 50px;
+    line-height: 50px;
+    font-weight: normal;
+}
+.main--sec .orange-sec .sbj .didianimg{
+	margin-right:4px;
+	display: inline-block;
+}
+.main--sec .sbj b {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+}
+.main--sec.orange-sec .sbj b {
+    color: #ff8629;
+    font-weight: normal;
+}
+
+.main--sec .sbj b {
+	font-size: 18px
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #333;
+}
+.main--sec {
+    margin-bottom: 10px;
+    padding: 0 20px;
+    border-top: 3px solid #00af80;
+    overflow: hidden;
+    background: white;
+}
+.text-input-cont {
+    position: relative;
+    height: 300px;
+    padding-bottom: 120px;
+}
+.mb20 {
+    margin-bottom: 20px !important;
+    border: 1px #CCCCCC dashed;}
+ .hline {
+    position: absolute;
+    width: 60px;
+    top: 35px;
+    height: 2px;
+    background: #00AFF0;
+    left: 6px;
+}
+ .lline {
+    position: absolute;
+    top: 6px;
+    width: 2px;
+    height: 60px;
+    background: #00AFF0;
+    left: 31px;
+}
+.text-input-cont textarea {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    border: none;
+    border-radius: 0;
+    outline: none;
+    font-size: 14px;
+    color: #333;
+    line-height: 1.5;
+    font-family: "microsoft yahei";
+}
+
+.file-upload .file-cont {
+    position: relative;
+    width: 68px;
+    height: 68px;
+    margin-left: 10px;
+    border: 1px dashed #d2d2d2;
+    overflow: hidden;
+    /*float: left;*/
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: white;
+}
+.file-upload .file-cont input {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 70px;
+    width: 70px;
+    margin: 0;
+    border: none;
+    cursor: pointer;
+    filter: alpha(opacity=0);
+    opacity: 0;
+}
+.file-upload {
+	width: 100%;
+	height: auto;
+}
+input[type="file" i] {
+    align-items: baseline;
+    color: inherit;
+    text-align: start;
+}
+.file-upload p {
+    margin-left: 10px;
+    /*float: left;*/
+    color: #999;
+}
+.two-btn-wrap .lfloat{
+	float:left;
+	width:48%;
+	background: #00abb7;
+	color: white;
+	text-align: center;
+	font-size: 20px;
+	border-radius: 5px;
+}
+.two-btn-wrap .rfloat{
+	float:right;
+	width:48%;
+	background:#00b44d;
+	color: white;
+	text-align: center;
+	font-size: 20px;
+	border-radius: 5px;
+}

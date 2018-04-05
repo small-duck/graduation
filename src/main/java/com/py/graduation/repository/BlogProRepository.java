@@ -12,4 +12,5 @@ import javax.annotation.Resource;
 
 public interface BlogProRepository extends JpaRepository<BlogPo,Long> {
 
+
 }

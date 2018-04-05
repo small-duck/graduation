@@ -18,9 +18,17 @@ public class BlogIndexService {
     @Autowired
     private BlogProRepository blogIndexRepository;
 
+    /**
+     * 查找全部
+     * @return
+     */
     public List<BlogPo> findBlogIndesList() {
         List<BlogPo> all = blogIndexRepository.findAll();
 
         return all;
+    }
+
+    public List<BlogPo> fingStudyBlogsById(Integer catId) {
+        return null;
     }
 }
