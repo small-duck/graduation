@@ -38,4 +38,4 @@ application:
                 hibernate.generate_statistics: true
 
 server:
-    port: 8886
+    port: 8888

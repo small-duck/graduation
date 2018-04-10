@@ -309,7 +309,7 @@ input::-webkit-input-placeholder {
 
 .banner_img img {
 	width: 100%;
-	height: 100%;
+	height: 38%;
 	margin: 0 auto;
 	overflow: hidden;
 }
@@ -457,7 +457,7 @@ small.text-uppercase {
 }
 
 
-//new-b首页下面部分
+/*new-b首页下面部分*/
 .new-b {
 	width: 100%;
 	/*max-width: 1160px;*/

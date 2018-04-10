@@ -1,0 +1,434 @@
+<%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+<html>
+
+<script>
+    <%String path = request.getContextPath(); %>
+</script>
+	<head>
+		<meta name="viewport" content="width=device-width,user-scalable=0,initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
+	    <meta charset="utf-8">
+	    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	    <title>虚拟仿真实验教学中心</title>
+	    <link rel="stylesheet" type="text/css" href="<%=path%>/css/base.css"/>
+	    <link rel="stylesheet" type="text/css" href="<%=path%>/css/cxxt-mian.css"/>
+		<link rel="stylesheet" type="text/css" href="<%=path%>/css/cxxt_discipline.css" />
+		<link rel="stylesheet" type="text/css" href="<%=path%>/css/cxxt_download.css"/>
+	    <link rel="stylesheet" type="text/css" media="screen" href="<%=path%>/css/media.css">
+		<script src="<%=path%>/js/introduce.js" type="text/javascript"></script>
+		<script src="<%=path%>/js/tab.js" type="text/javascript"></script>
+	</head>
+	<body>
+	<!--头部开始-->
+	<div class="header">
+		<div class="cx-wrapper topwrapbg">
+			<div class="cx-inner">
+				<div class="topwrap yahei"><!--logo-->
+					<a class="logo" href="<%=path%>/cxxt_index.jsp" target="_self">
+						<img src="<%=path%>/img/logo.png"/>
+					</a>
+					<div class="logo-center">
+						<!--这是一张校训图片，现在没有.加载背景图上-->
+					</div>
+					<!--屏幕在320px时，打开切换按钮，nav-->
+					<div class="nav-tab" id="nav_tab">
+						<!--<img src="<%=path%>/img/ban_img/icon.png"/>-->
+					</div>
+					<!--搜索开始-->
+					<div class="logo-r" id="logo_r">
+						<div class="guanliyuan">
+							<a >请搜索关键字</a>
+							<a>|</a>
+							<a href="#">管理员</a>
+						</div>
+						<div class="searchs">
+							<div class="search">
+								<div class="search-input">
+									<input name="keyword" class="search-title" type="text" placeholder="搜索...">
+								</div>
+								<div class="search-btn">
+									<input name="submit" class="search-submit" type="submit" value="">
+								</div>
+							</div>
+						</div>
+					</div>
+					<!--搜索结束-->
+				</div>
+			</div>
+		</div>
+	</div>
+	<!--头部结束-->
+	<div class="cl"></div><!--清除浮动-->
+	<!--nav开始-->
+	<div class="nav" id="nav">
+		<div class="cx-inner">
+			<div class="navs yahei">
+				<ul>
+					<li><a href="<%=path%>/cxxt_index.jsp" target="_self">首页</a></li>
+					<li><a href="<%=path%>/cxxt_introduce.jsp" target="_self">中心概述</a></li>
+					<li><a href="<%=path%>/cxxt-jxzy.html" target="_self">教学资源</a></li>
+					<li><a href="<%=path%>/cxxt_Communication.html" target="_self">队伍管理</a></li>
+					<li><a href="<%=path%>/cxxt_Project.html" target="_self">项目展示</a></li>
+					<li><a href="<%=path%>/cxxt_disciplne.jsp" target="_self">规章制度</a></li>
+					<li><a href="<%=path%>/cxxt_quenstion.html" target="_self">在线解答</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<!--nav结束-->
+
+    <div class="cl"></div><!--清除浮动-->
+
+    <!--大图banner-->
+    <div class="banner">
+        <div class="banner_img">
+            <img src="<%=path%>/img/cj-img1.jpg">
+            <div class="headline">
+                <div class="hl_bg"></div>
+                <div class="hl_p">
+                    <p class="hl">中心概述</p>
+                </div>
+            </div>
+            <p class="media-p">中心概述</p>
+        </div>
+
+    </div>
+
+	<!--主体开始-->
+	<div class="cx-wrapper content_sz">
+		<div class="cx-inner yahei">
+			<!--<div class="content-dis">-->
+				<div class="downcolumn1">
+				    	<div class="downcolumn1-top">
+					    	<span class="downspan1">规章制度</span>
+					    	<!--此处表示响应式隐藏的按钮-->
+					    	<div id="downline">
+					    		<div class="downline1"></div>
+					    		<div class="downline2"></div>
+					    		<div class="downline3"></div>
+					    	</div>
+				    	</div>
+				    	<div class="downcolumn1-content" id="downcolumn1_content">
+				    	 	<ul id="downcolumn1ul">
+				    	 		<li><img src="<%=path%>/img/img_project/column1-topspan2.gif"><span id="sp1" class="backgroundcolor"><a href="http://localhost:8888/birng/details?type=2">教师岗位职责</a></span></li>
+				    	 		<li><img src="<%=path%>/img/img_project/column1-topspan2.gif"><span id="sp1"><a href="http://localhost:8888/birng/details?type=3">工作人员岗位职责</a></span></li>
+				    	 		<li><img src="<%=path%>/img/img_project/column1-topspan2.gif"><span id="sp1"><a href="http://localhost:8888/birng/details?type=4">学生实验守则</a></span></li>
+				    	 		<li><img src="<%=path%>/img/img_project/column1-topspan2.gif"><span id="sp1"><a href="http://localhost:8888/birng/details?type=5">教学考核管理</a></span></li>
+				    	 		<li><img src="<%=path%>/img/img_project/column1-topspan2.gif"><span id="sp1"><a href="http://localhost:8888/birng/details?type=6">安全卫生制度</a></span></li>
+				    	 		<li><img src="<%=path%>/img/img_project/column1-topspan2.gif"><span id="sp1"><a href="http://localhost:8888/birng/details?type=7">设备管理与维护</a></span></li>
+				    	 		<!--<li><img src="<%=path%>/img/img_project/column1-topspan2.gif"><span><a href="<%=path%>/cxxt_download-4.html">UI学习库</a></span></li>-->
+				    	 	</ul>
+				    	 </div>
+				    </div>
+				<div class="szde">
+				<div class="szc"><!--内容简介-->
+					<div class="introduce clearfix">
+						<div class="wz">
+							<div class="box" id="in_box">
+								<div class="mb">
+									<ul>
+										<li class="art show">
+											<div class="szt"><!--标题栏-->
+												<div class="title">
+													<%--<span>教师岗位职责</span>--%>
+													<a >${details.title}</a>
+												</div>
+											</div>
+											<div class="cont">
+												<%--<p>一、忠诚教育事业、热爱本职工作，树立为教学服务的思想，服从工作安排，模范遵守学校、学院的各项规章制度；</p>--%>
+												<%--<p>二、努力学习业务知识，掌握各种仪器设备的原理、构造，使用方法与基本的维修技能，对实验仪器要定期检查，使其处于良好状态， 保证实验教学正常开展；</p>--%>
+												<%--<p>三、认真做好实验前的各项准备工作、包括整理设备、网络调试、 安装软件、熟练掌握实验内容及调试方法。在指导学生实验过程中要 认真、耐心；中心老师要协调解决实验中出现的各种问题；</p>--%>
+												<%--<p>四、要经常向有关教师介绍中心里有关设备、器材及实验情况；</p> --%>
+												<%--<p>五、各实验课程小组组长主持或编写实验教学大纲、实验指导书，积极参与编写实验课教材；</p> --%>
+												<%--<p>十一、下班离开中心必需切断电源、关好门窗，作好实验室的放火、防盗等工作，努力做到安全无事故。</p> --%>
+												<%--<p>六、中高级技术人员要独立设计实验方案、独立指导实验、独立讲授实验课程。高级技术人员要能解决实验过程中出现的关键性技术难题；承担中、初级技术人员的培养及指导工作；</p> --%>
+												<%--<p>七、坚持教学改革、充实实验内容，逐步减少验证性实验、增加设计性和开放性实验；</p> --%>
+												<%--<p>八、创造条件，开放中心，协助任课教师组织学生开展课外科技兴趣小组活动；</p> --%>
+												<%--<p>九、做好实验报告、设计报告、实验数据及实验教材的整理归档工作；</p> --%>
+												<%--<p>十、做好中心日常管理工作，保持中心环境的整洁； </p> --%>
+												<%--<p>十一、下班离开中心必需切断电源、关好门窗，作好实验室的放火、防盗等工作，努力做到安全无事故。</p> --%>
+													${details.comtent}
+												<div class="cont_right">
+													 <span class="contright1">网络通信与安全虚拟仿真实验教学中心</span>
+													${details.type}
+												     <span class="contright2">二○一五年四月</span>
+												</div>
+											</div>
+										</li>
+										<%--<li class="art">--%>
+											<%--<div class="szt"><!--标题栏-->--%>
+												<%--<div class="title">--%>
+													<%--&lt;%&ndash;<span>工作人员岗位职责</span>&ndash;%&gt;--%>
+													<%--<a >工作人员岗位职责</a>--%>
+												<%--</div>--%>
+											<%--</div>--%>
+
+											<%--<div class="cont">--%>
+												<%--&lt;%&ndash;<p>中心是进行实验教学、科学研究和对外服务的重要基地。中心工作人员要树立全心全意为广大师生服务的思想，树立良好的职业道德和行为规范。努力做到实验育人、管理育人、服务育人。具体职责如下：</p>&ndash;%&gt;--%>
+												<%--&lt;%&ndash;<p>一、遵守国家法律、法规，遵守学校各项规章制度，认真贯彻国家教育方针。积极参加政治学习和集体活动。</p>&ndash;%&gt;--%>
+												<%--&lt;%&ndash;<p>二、中心主任全面负责实验室的工作。确定岗位任务，制定岗位责任制；制定实验室建设规划并组织实施；组织实验室各类人 员完成各项工作任务；定期检查、总结实验室工作；负责对实验室工作人员的培训及考核。</p>&ndash;%&gt;--%>
+												<%--&lt;%&ndash;<p>三、中心工作人员必须服从管理，服从工作安排，完成岗位任务（另行规定）。</p>&ndash;%&gt;--%>
+												<%--&lt;%&ndash;<p>四、遵守正常的上下班制度，不得无故迟到早退。 </p>&ndash;%&gt;--%>
+												<%--&lt;%&ndash;<p>五、各实验课程小组组长要主持或负责组织编写实验教学大纲，编写实验指导书，编写实验课教材。</p> &ndash;%&gt;--%>
+												<%--&lt;%&ndash;<p>六、中高级技术人员要能独立设计实验方案、独立指导实验，独立讲授实验课程。积极承担实验装置及新技术的开发工作。高级技术人员要能解决实验过程中出现的关键性技术难题；承担中、初级技术人员的培养及指导工作。中级技术人员要能独立解决实验过程中出现 的一般性问题，指导初级人员的工作和学习；初级技术人员要逐步掌 握有关实验技术、完成相关实验指导任务。</p>&ndash;%&gt;--%>
+												<%--&lt;%&ndash;<p>七、要有高度的责任感和敬业精神。认真做好实验前的各项准备工作：包括整理设备、网络调试、安装软件、清除病毒、熟练掌握实验内容及调试方法等。实验过程中指导学习要认真、严谨、耐心、热情，实验人员要协调解决实验中出现的各种问题，记录实验情况，改实验报告。</p>&ndash;%&gt;--%>
+												<%--&lt;%&ndash;<p>八、教育学生做好实验课前的预习，服从工作人员管理，严格遵守各项规章制度和安全操作规程。爱护仪器设备，节约材料。认真做好实验，分析实验结果，找出误差原因，写出实验报告，鼓励、支持、引导学生的实验创新及改革。</p>&ndash;%&gt;--%>
+												<%--&lt;%&ndash;<p>九、切实加强学习基本实验方法和技能的训练。推行素质教育，使学生具备科学的实验能力，掌握现代实验方法。通过实验培养学生理论联系实际的作风，求实严谨的科学态度，探索创新的进取精神，分析问题、解决问题的实践能力，以及勤俭节约、艰苦奋斗的创业精神。</p>&ndash;%&gt;--%>
+												<%--&lt;%&ndash;<p>十、做好实验报告、设计报告、实验数据及实验教材的整理归档工作和保密工作。实验室的技术成果和职务发明，不得私自转让和泄密。</p>&ndash;%&gt;--%>
+												<%--&lt;%&ndash;<p>十一、努力提高业务水平。经本人申请和批准后，可以利用空余时间随堂听课，逐步达到全面正确掌握本门教学课程的理论知识；刻苦钻研实验技术，逐步提高实验指导、设计及开发水平。掌握计算机的基本理论和操作。</p> &ndash;%&gt;--%>
+												<%--&lt;%&ndash;<p>十二、坚持教学改革。吸收掌握国内外同行最新实验研究成果，征求任课教师意见，改革实验方法和手段，充实实验内容，逐步减少验证性实验，增加综合证、设计性实验。</p>&ndash;%&gt;--%>
+												<%--&lt;%&ndash;<p>十三、积极承担科研工作，努力完成科研任务。支持教师的科研工作。</p>&ndash;%&gt;--%>
+												<%--&lt;%&ndash;<p>十四、努力做到安全无事故。防火、防盗，下班离开实验室必须切断电源，锁闭门窗，发现不良行为要及时制止并作登记，发现可疑 情况要及时报告给相关部门。安全责任人和安全员更要加强安全意识，把安全放在第一位，时时警惕，防患未然。</p>&ndash;%&gt;--%>
+												<%--&lt;%&ndash;<p>十五、搞好实验室仪器设备的验收、管理、维护和校准工作；记录仪器设备使用情况；及时检查、发现和排除故障，大故障及早报修，使之经常处于完好状态。确保实验数据的准确性和实验结果的可靠性。提高仪器设备的使用效率。高级技术人员要主持指导大型仪器设 备的验收、维护、功能开发及使用工作。所有设备均是公共财产，未经允许，任何个人不得私自搬出。</p>&ndash;%&gt;--%>
+												<%--&lt;%&ndash;<p>十六、保管员要做好实验仪器设备以及资料、耗材的建卡、验收工作；做好图书情报资料的整理、归档工作；建立仪器设备帐、卡、物及使用情况的设备信息管理系统。领用责任人要保管好领用的设备。</p>&ndash;%&gt;--%>
+												<%--&lt;%&ndash;<p>十七、在保证完成教学任务的前提下，积极开展社会服务和技术开发工作，不断增强实验室的活力。</p>&ndash;%&gt;--%>
+												<%--&lt;%&ndash;<p>十八、爱环境、讲卫生。除了保证日常的卫生清扫外，每星期要进行一次仪器设备及环境卫生大扫除。</p>&ndash;%&gt;--%>
+												<%--&lt;%&ndash;<p>十九、以主人翁的姿态维护实验室的整体利益和荣誉。齐心协力逐步把实验室建设成为开放、开发型的实验室，争创重点实验室、争创实验教学示范中心。</p>&ndash;%&gt;--%>
+												<%--&lt;%&ndash;&ndash;%&gt;--%>
+													<%--<c:if test="${details.type == 3}">--%>
+														<%--${details.comtent}--%>
+													<%--</c:if>--%>
+											<%--<div class="cont_right">--%>
+													 <%--<span class="contright1">网络通信与安全虚拟仿真实验教学中心</span>--%>
+												<%--<c:if test="${details.type == 3}">--%>
+													<%--${details.comtent}--%>
+												<%--</c:if>--%>
+													<%--${details.type}--%>
+												     <%--<span class="contright2">二○一五年四月</span>--%>
+												<%--</div>--%>
+
+
+											<%--</div>--%>
+										<%--</li>--%>
+										<%--<li class="art">--%>
+											<%--<div class="szt"><!--标题栏-->--%>
+												<%--<div class="title">--%>
+													<%--&lt;%&ndash;<span>学生实验守则</span>&ndash;%&gt;--%>
+													<%--<a >学生实验守则</a>--%>
+												<%--</div>--%>
+											<%--</div>--%>
+
+											<%--<div class="cont">--%>
+												<%--&lt;%&ndash;<p>一、严格遵守学校、学院实验室的规章制度及实验纪律。</p> &ndash;%&gt;--%>
+												<%--&lt;%&ndash;<p>二、认真预习，明确实验的目的和基本要求。实验前必须认真预习实验讲义或实验指导书，掌握实验的原理、方法、步骤；了解有关仪器的性能、配置；熟悉其操作规程及安全注意事项。综合开放性实验项目，必须在实验教师的指导下拟定出正确的实验方案。</p>&ndash;%&gt;--%>
+												<%--&lt;%&ndash;<p>三、进入中心要衣着整洁，不准高声谈笑，不准吸烟，不准随 地吐谈，不准乱抛（藏）废弃物。</p>&ndash;%&gt;--%>
+												<%--&lt;%&ndash;<p>四、严格遵守操作规程，科学进行实验。实验过程中必须听从实验教师和管理人员的指导；切实做到独立思考、科学操作、细致观察、如实记录。自觉培养严谨、求是的科学作风。积极参与实验教学改革，提倡树立生动活泼、刻苦钻研、善于探索、勇于创新、积极学习的学风。认真分析实验中观察到的现象和存在 的问题，实验完毕应及时整理实验数据记录，实验记录经指导教师审阅签字后，才可拆除实验线路。按要求写出实验报告，按时送交实验指导教师。不准弄虚作假，不准任意修改实验数据，不准抄袭实验报告，一经发现和核实，除给予批评教育和书面检查外，该实验成绩记为不及格；凡两次重犯者，该实验课程成绩以零分计，必须全部重做才能获得该实验课程学分（重做实验的费用需另交）；经多次教育屡教不改者，按学校有关规定进行处理。严防事故，确保实验室的安全。实验过程中发生任何破坏性异常现象，（例如元器件冒烟、发烫有气味或仪器设备出现异常），应立即切断电源，保护现场，及时报告指导教师，不得自行处理。等待查明原因、排除故障、教师同意后，才能继续进行实验。违反操作规程造 成仪器设备及实验材料损坏者，将酌情赔偿，并视情节轻重进行批评直到纪律处分。如发生事故，应自觉填写事故报告单，总结经验，吸取教训。</p>&ndash;%&gt;--%>
+												<%--&lt;%&ndash;<p>五、遵守纪律，不迟到早退，不准无故缺席。不准在中心内进行与本实验无关的活动，不准利用计算机玩电子游戏，未经批准不得动用与本实验无关的设备器材。实验仪器设备、工具、用具等应妥善保管，实验或实习结束后，整理好仪器设备并如数清点归还，若有遗失或损坏应按《巢湖学院损坏、遗失实验器材实行赔偿的暂行办法》和学校有关规定处理。</p>&ndash;%&gt;--%>
+												<%--&lt;%&ndash;<p>六、确保安全，注意卫生。</p>&ndash;%&gt;--%>
+												<%--&lt;%&ndash;<p>七、严格遵守实验室安全管理条例和仪器设备操作规程,不准违规操作；保持实验室整洁、科学、规范、文明、有序的工作环境。如有违反，造成设备器材或设施损坏引发安全事故，当事人必须写出书面报告，由实验指导教师和实验室负责人根据损失大小、情节轻重、按有关规定提出处理意见并报学院和学校批准后，分别给予批评教育、经济处罚、行政处分直至追究法律责任。每次实验结束，学生轮流协助实验室打扫卫生和整理仪器。以增强参与管理意识。</p>&ndash;%&gt;--%>
+												<%--&lt;%&ndash;<p>八、 以上各条必须自觉遵守，违反者予以批评教育，情节严重的，依照有关规定进行处理。</p>&ndash;%&gt;--%>
+													<%--<c:if test="${details.type == 4}">--%>
+														<%--${details.comtent}--%>
+													<%--</c:if>--%>
+												<%--<div class="cont_right">--%>
+													 <%--<span class="contright1">网络通信与安全虚拟仿真实验教学中心</span>--%>
+												     <%--<span class="contright2">二○一五年四月</span>--%>
+												<%--</div>--%>
+											<%--</div>--%>
+										<%--</li>--%>
+										<%--<li class="art">--%>
+											<%--<div class="szt"><!--标题栏-->--%>
+												<%--<div class="title">--%>
+													<%--&lt;%&ndash;<span>教学考核管理</span>&ndash;%&gt;--%>
+													<%--<a >教学考核管理</a>--%>
+												<%--</div>--%>
+											<%--</div>--%>
+											<%--<div class="cont">--%>
+												<%--&lt;%&ndash;<p>1．每次实验成绩，可根据预习、实际操作、动手能力、科学态度、创新意识、实验结果、实验报告等方面进行综合评定。</p>&ndash;%&gt;--%>
+												<%--&lt;%&ndash;<p>2．单独设课的实验成绩，可根据每次实验的成绩和期末实验考试综合评定，平时与期末考试比例由教师根据实验教学大纲确定。未单独设课的实验成绩，根据实验教学时数占总学时情况，按相应的比例计入课程总成绩。</p>&ndash;%&gt;--%>
+												<%--&lt;%&ndash;<p>3．单独设课的实验成绩不合格，必须重修。</p>&ndash;%&gt;--%>
+												<%--&lt;%&ndash;<p>4．实验课程考核成绩由任课教师登记入册，交院教务秘书进行成绩登录并纳入学生学籍管理系统进行管理。</p>&ndash;%&gt;--%>
+													<%--<c:if test="${details.type == 5}">--%>
+														<%--${details.comtent}--%>
+													<%--</c:if>--%>
+												<%--<div class="cont_right">--%>
+													<%--${details.type}--%>
+													 <%--<span class="contright1">网络通信与安全虚拟仿真实验教学中心</span>--%>
+												     <%--<span class="contright2">二○一五年四月</span>--%>
+												<%--</div>--%>
+											<%--</div>--%>
+										<%--</li>--%>
+										<%--<li class="art">--%>
+											<%--<div class="szt"><!--标题栏-->--%>
+												<%--<div class="title">--%>
+													<%--&lt;%&ndash;<span>安全卫生制度</span>&ndash;%&gt;--%>
+													<%--<a >安全卫生制度</a>--%>
+												<%--</div>--%>
+											<%--</div>--%>
+											<%--<div class="cont">--%>
+												<%--&lt;%&ndash;<p>1.各课程负责人具体负责本次实验中的安全工作，对易出事的部位，应提醒教师和同学注意。发生事故及时处理。经常检查灭火 器、门、窗、电器线路、通风设备，发现破损或故障须及时维修或报告。&ndash;%&gt;--%>
+												<%--&lt;%&ndash;<p>2.中心全体人员应能正确使用灭火器，发现火险隐患及时报告处置，发生火灾主动扑救，及时报警（电话119）。</p>&ndash;%&gt;--%>
+												<%--&lt;%&ndash;<p>3.发现被盗或破坏，应保护现场并立即报告保卫处。</p>&ndash;%&gt;--%>
+												<%--&lt;%&ndash;<p>4.中心每天设值班员。值班人员责任：每天下班前检查各室所有电源是否已被切断，水、暖管道不要有漏水现象，水龙头要关紧。大门是否确实锁牢。</p>&ndash;%&gt;--%>
+												<%--&lt;%&ndash;<p>5.节假日前全室人员进行安全检查后封门。假期值班人员发现异常情况时应及时处理和报告。</p>&ndash;%&gt;--%>
+												<%--&lt;%&ndash;<p>6.禁止使用一切电炉及电热器取暖。</p>&ndash;%&gt;--%>
+												<%--&lt;%&ndash;<p>7.中心禁止存放易燃、易爆物品以及自行车和其它生活用品。</p>&ndash;%&gt;--%>
+												<%--&lt;%&ndash;<p>8.中心要经常保持整洁卫生，做到地面、桌面、设备三清洁。</p>&ndash;%&gt;--%>
+												<%--&lt;%&ndash;<p>9.中心定期对各课程组的安全防范工作进行检查并做好检查记录。</p>&ndash;%&gt;--%>
+													<%--<c:if test="${details.type == 6}" >--%>
+														<%--${details.comtent}--%>
+													<%--</c:if>--%>
+												<%--<div class="cont_right">--%>
+													 <%--<span class="contright1">网络通信与安全虚拟仿真实验教学中心</span>--%>
+												     <%--<span class="contright2">二○一五年四月</span>--%>
+												<%--</div>--%>
+											<%--</div>--%>
+
+										<%--</li>--%>
+										<%--<li class="art">--%>
+											<%--<div class="szt"><!--标题栏-->--%>
+												<%--<div class="title">--%>
+													<%--&lt;%&ndash;<span>设备管理与维护</span>&ndash;%&gt;--%>
+													<%--<a >设备管理与维护</a>--%>
+												<%--</div>--%>
+											<%--</div>--%>
+											<%--<div class="cont">--%>
+												<%--&lt;%&ndash;<p>计根据巢湖仪器设备管理办法的规定，为加强和规范我院的仪器管理工作，特制定如下措施：</p>&ndash;%&gt;--%>
+												<%--&lt;%&ndash;<p>一、	信息工程学院实验室的仪器设备实行归口，分级管理制度，中心由主任、实验室负责人统一管理仪器设备工作，各课程负责人负责管理各组的仪器设备。</p>&ndash;%&gt;--%>
+												<%--&lt;%&ndash;<p>二、	中心仪器设备借出与归还，必须按《设备借用申请表》和《设备归还表》的程序办理。包括因教学、毕业设计等借用的设备均按该此程序。</p>&ndash;%&gt;--%>
+												<%--&lt;%&ndash;<p>三、 设备使用单位必须认真做好仪器设备防火、防盗安全等工作，保证仪器设备完好利用，如发现隐患、意外等情况应及时向领导汇报。</p>&ndash;%&gt;--%>
+												<%--&lt;%&ndash;<p>四、 仪器设备被盗、丢失或严重损坏，必须立刻上报主管理部门的领导，待查明原因明确责任后，办理赔偿手续。</p>&ndash;%&gt;--%>
+												<%--&lt;%&ndash;<p>五、 各组实验室必须做好工作环境管理。如：仪器设备的使用率，实验环境卫生和仪器设备整洁等工作，特别是硬件实验组的实验箱必须在课程结束后，必须清理干净盖好归位。</p>&ndash;%&gt;--%>
+												<%--&lt;%&ndash;<p>六、 设备采购、维修及耗材，按设备耗材与维修的申请报告程序办理。</p>&ndash;%&gt;--%>
+													<%--<c:if test="${details.type == 7}">--%>
+														<%--${details.comtent}--%>
+													<%--</c:if>--%>
+												<%--<div class="cont_right">--%>
+													 <%--<span class="contright1">网络通信与安全虚拟仿真实验教学中心</span>--%>
+												     <%--<span class="contright2">二○一五年四月</span>--%>
+												<%--</div>--%>
+											<%--</div>--%>
+										<%--</li>--%>
+									</ul>
+								</div>
+								<!--<div id="art1">
+									<p class="artTitle">实验室简介</p>
+									<p >移动互联实验室（又称协同创新中心，以下简称“中
+													心”）是高素质复合型人才培养的重要基地，是巢湖学院
+													实行“人才、学科、科研”三位一体创新能力培养的主要平台。
+													<a class="expand">[全文]</a></p>
+									<div class="cont" >
+										创新中心将以移动互联网产业作为核心发展方向，以地区移动互联网领域高新技术人才培养
+								        培养具备高素质的技术应用型人才为目标，使之成为安徽的重要场所和载体
+										。中心将建设成为安徽省大学生实习实训基地的样板，并
+										以此构建国家级工程实践教育中心、国家级大学生实习实
+										训基地、创新创业孵化器。基于云系统的APP研发制作平台，可支持安卓与苹果
+							.picint img			版本提供在线开发模块，降低开发成本和周期，用户无需
+										编程知识和开发成本，短短几分钟即可完成APP完善的独
+										立运营的管理后台，便于软件平台的日常管理和维护。
+									<div class="btm">
+											<a  class="btn" >收起全文</a>
+										</div>
+									</div>
+								</div>
+								<hr/>
+								<div id="art1">
+									<p class="artTitle">实验室制度</p>
+									<p >学生上机必须服从教师的安排，有秩序地进入实验室，严禁大声喧哗、跑动，以保证安静良好的学习环境。
+										硬件安装及操作完成后应正常归位所使用的硬件，正确关闭计算机。将椅子、工具等放置归位。
+													<a  class="expand">[全文]</a></p>
+									<div class="cont">
+									为了保证实验室的安全和卫生，学生上机不得将食品、饮料、水杯等带入实验室。
+									禁止随地吐痰，乱扔纸屑，抽烟、吃东西、嚼口香糖等。
+									学生应爱护公共财物，严禁在电脑和维修工作台上刻划，更不得随意私自搬动、拆卸计算机及相应的部件。
+										<div class="btm">
+											<a  class="btn">收起全文</a>
+										</div>
+									</div>
+								</div>
+								<hr/>
+								<div id="art1">
+									<p class="artTitle">实验室硬件</p>
+									<p >计算科学实验室现有三个分室，共有72台dell计算机和24台苹果机，其两个dell计算机机房中有一个能够用于专业上机，另一个只能用于基础课上机。数学建模实验室现有一个网络机房，共有
+50台微机，可用于专业上机。两个实验室能用于专业上机的只有两个机房，共100台微机。
+								<a  class="expand" id="q">[全文]</a></p>
+									<div class="cont">
+										计算科学实验室现有三个分室，共有40台微机，其中两个网络机房，一个普通机房（机器老化，不能使用）。，另一个只能用于基础课上机。数学建模实验室现有一个网络机房，，可用于专业上机。两个实验室能用于专业上机的只有两个机房，共100台微机。
+
+
+										<div class="btm">
+											<a  class="btn">收起全文</a>
+										</div>
+									</div>
+								</div>-->
+								<hr/>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="szfg clearfix">
+					<div class="szfgs"><!--图片-->
+					<!--	<div class="szl">
+							<div class="title">
+								<span>实验室</span>
+							</div>
+						</div>-->
+						<div class="picint clearfix"><!--实验室图片-->
+							<a ><img src="<%=path%>/img/图片1.png" alt="" /></a>
+							<a ><img src="<%=path%>/img/图片2.png" alt="" /></a>
+							<a id="in_img_last"><img src="<%=path%>/img/图片3.png" alt="" /></a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!--</div>-->
+		</div>
+
+	</div>
+	<!--主体结束-->
+
+	<div class="cl"></div>
+
+	<!--footer开始-->
+	<div class="footer cx-wrapper">
+		<div class="cx-inner clearfix">
+			<div class="foot_l">
+				<img src="<%=path%>/img/sydw.jpg"/>
+				<p>版权所有 巢湖学院 Copyright © Chaohu university All rights reserved.</p>
+				<p>校址：安徽省合肥巢湖经济开发区  邮政编码：238000 皖ICP备05018249号</p>
+			</div>
+			<div class="foot_r">
+		        <div class="f_r_peo" frag="面板15">
+		        	<div frag="窗口15">
+		          		<div class="articlecontent ">
+			                <style type="text/css">
+			                	.wp_editor_art_table td {
+			                		border:0 !important;
+			                		background:none !important;
+			                		color:#fff;
+			                	}
+			                	.wp_editor_art_table {
+			                		margin-bottom:0 !important;
+			                	}
+			                </style>
+			                <table class="wp_editor_art_table" cellpadding="0" cellspacing="0" width="100%">
+			                	<tbody>
+			                		<tr>
+			                			<td>
+			                				<p style="text-align:center;">
+			                				<img data-layer="photo" src="<%=path%>/img/weberwema.jpg" style="float:none;" sudyfile-attr="{'title':'wzewm.jpg'}"></p>
+			                			</td>
+			                			<td>
+			                				<p style="text-align:center;">
+			                				<img data-layer="photo" src="<%=path%>/img/wecharerweima.jpg" style="float:none;" sudyfile-attr="{'title':'wxewm.jpg'}"></p>
+			                			</td>
+			                		</tr>
+			                		<tr>
+			                			<td style="text-align:center;">网站二维码</td>
+			                			<td style="text-align:center;">微信二维码<br></td>
+			                		</tr>
+			                	</tbody>
+			                </table>
+		          		</div>
+		        	</div>
+		        </div>
+		        <div class="f_r_le">
+		        	<img src="<%=path%>/img/gaba.jpg">
+		        	<span>皖公网安备 34018102340270号</span>
+		        </div>
+			</div>
+		</div>
+	</div>
+	<!--footer结束-->
+	</body>
+</html>

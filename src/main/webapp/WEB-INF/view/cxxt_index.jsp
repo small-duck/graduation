@@ -72,11 +72,11 @@
 				<div class="navs yahei">
 						<ul>
 							<li><a href="http://localhost:8888/blog/list" target="_self">首页</a></li>
-							<li><a href="cxxt_introduce.html" target="_self">中心概述</a></li>
+							<li><a href="http://localhost:8888/birng/details?type=1" target="_self">中心概述</a></li>
 							<li><a href="cxxt-jxzy.html" target="_self">教学资源</a></li>
 							<li><a href="cxxt_Communication.html" target="_self">队伍管理</a></li>
-							<li><a href="cxxt_Project.html" target="_self">项目展示</a></li>
-							<li><a href="cxxt_disciplne.html" target="_self">规章制度</a></li>
+							<li><a href="http://localhost:8888/project/show?type=1" target="_self">项目展示</a></li>
+							<li><a href="http://localhost:8888/birng/details?type=5" target="_self">规章制度</a></li>
 							<li><a href="cxxt_quenstion.html" target="_self">在线解答</a></li>
 						</ul>
 				</div>
@@ -215,27 +215,6 @@
 												   <a href="cxxt_news.html" target="_blank" title="'+${blog.title}+'">${blog.title}</a>
 											   </li>
 										   </c:forEach>
-											<%--<li>--%>
-												<%--<a href="cxxt_news.html" target="_blank" title="关于征集学习宣传贯彻党的十九大精神理论文章的通知">关于征集学习宣传贯彻党的十九大精神理论文章的通知</a>--%>
-											<%--</li>--%>
-											<%--<li>--%>
-												<%--<a href="cxxt_news.html" target="_blank" title="关于认真做好2017年工作总结及2018年工作计划的通知">关于认真做好2017年工作总结</a>--%>
-											<%--</li>--%>
-											<%--<li>--%>
-												<%--<a href="cxxt_news.html" target="_blank" title="关于征集学习宣传贯彻党的十九大精神理论文章的通知">关于征集学习宣传贯彻党的十九大精神理论文章的通知</a>--%>
-											<%--</li>--%>
-											<%--<li>--%>
-												<%--<a href="cxxt_news.html" target="_blank" title="巢湖学院2018年度高校优秀拔尖人才培育项目拟推荐项目公示">巢湖学院2018年度高校优秀拔尖人才培育项目拟推荐项目公示</a>--%>
-											<%--</li>--%>
-											<%--<li>--%>
-												<%--<a href="cxxt_news.html" target="_blank" title="巢湖学院2018年度高校优秀拔尖人才培育项目拟推荐项目公示">巢湖学院2018年度高校优秀拔荐项目公示</a>--%>
-											<%--</li>--%>
-											<%--<li>--%>
-												<%--<a href="cxxt_news.html" target="_blank" title="关于认真做好2017年工作总结及2018年工作计划的通知">关于认真做好2017年工作总结及2018年工作计划的通知</a>--%>
-											<%--</li>--%>
-											<%--<li>--%>
-												<%--<a href="cxxt_news.html" target="_blank" title="巢湖学院2018年度高校优秀拔尖人才培育项目拟推荐项目公示">巢湖学院2018年度高校优秀拔尖人才培育项目拟推荐项目公示</a>--%>
-											<%--</li>--%>
 								       </ul>
 								    </div>
 								  </div>
