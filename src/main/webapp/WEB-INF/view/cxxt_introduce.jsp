@@ -65,7 +65,7 @@
 			<div class="navs yahei">
 				<ul>
 					<li><a href="<%=path%>/cxxt_index.jsp" target="_self">首页</a></li>
-					<li><a href="<%=path%>/cxxt_introduce.jsp" target="_self">中心概述</a></li>
+					<li><a href="http://localhost:8888/birng/details?type=1" target="_self">中心概述</a></li>
 					<li><a href="<%=path%>/cxxt-jxzy.html" target="_self">教学资源</a></li>
 					<li><a href="<%=path%>/cxxt_Communication.html" target="_self">队伍管理</a></li>
 					<li><a href="http://localhost:8888/project/show?type=1" target="_self">项目展示</a></li>
