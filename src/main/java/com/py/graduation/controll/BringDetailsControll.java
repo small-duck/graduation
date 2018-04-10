@@ -29,6 +29,9 @@ public class BringDetailsControll {
         } else {
             modelAndView.setViewName("cxxt_disciplne");
         }
+
+
+        //修改看啊
         BringDetailsPo details = service.findBringDetailsByTuype(type);
         modelAndView.addObject("details",details);
         return modelAndView;
