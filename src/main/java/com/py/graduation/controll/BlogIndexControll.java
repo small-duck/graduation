@@ -25,9 +25,9 @@ public class BlogIndexControll {
     public ModelAndView findIndexBlogs(ModelAndView modelAndView) {
         modelAndView.setViewName("cxxt_index");
         IndexBlogDetails details = new IndexBlogDetails();
-        List<BlogPo> studyBlog = new ArrayList<>();
-        List<BlogPo> noticeBlog = new ArrayList<>();
-        List<BlogPo> scienceBlog = new ArrayList<>();
+        List<BlogPo> studyBlog = new ArrayList<BlogPo>();
+        List<BlogPo> noticeBlog = new ArrayList<BlogPo>();
+        List<BlogPo> scienceBlog = new ArrayList<BlogPo>();
 
         List<BlogPo> list = blogIndexService.findBlogIndesList();
         for (BlogPo blogPo : list) {
